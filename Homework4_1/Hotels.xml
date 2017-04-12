@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE Hotels SYSTEM "./Hotels.xsd">
+<Hotels>
+  
+  <Hotel>
+    <name>Hilton Garden Inn Phoenix Airport</name>
+    <contact>
+      <phone>16024700500</phone>
+      <email>none</email>
+    </contact>
+    <address>
+      <number>3422</number>
+      <street>East Elwood Street</street>
+      <city>Phoenix</city>
+      <zip>85040</zip>
+    </address>
+    <stars>"***"</stars>
+  </Hotel>
+
+  <Hotel>
+    <name>Holiday Inn Express and Suites Scottsdale - Old Town</name>
+    <contact>
+      <phone>14806757665</phone>
+      <email>trisha.ryno@concordhotels.com</email>
+    </contact>
+    <address>
+      <number>3131</number>
+      <street>North Scottsdale Road</street>
+      <city>Scottsdale</city>
+      <zip>85281</zip>
+    </address>
+    <stars>"****"</stars>
+  </Hotel>
+  
+  <Hotel>
+    <name>Residence Inn Tempe</name>
+    <contact>
+      <phone>14807562122</phone>
+      <email></email>
+    </contact>
+    <address>
+      <number>5075</number>
+      <street>South Priest Drive</street>
+      <city>Tempe</city>
+      <zip>85282</zip>
+    </address>
+  </Hotel>
+
+  <Hotel>
+    <name>Hampton Inn and Suites Lodi</name>
+    <contact>
+      <phone>12093692700</phone>
+      <email></email>
+    </contact>
+    <address>
+      <number>1337</number>
+      <street>South Beckman Road</street>
+      <city>Lodi</city>
+      <zip>95240</zip>
+    </address>
+  </Hotel>
+
+  <Hotel>
+    <name>Best Western Plus Clocktower Inn</name>
+    <contact>
+      <phone>4062595511</phone>
+      <email></email>
+    </contact>
+    <address>
+      <number>2511</number>
+      <street>1st Avenue N</street>
+      <city>Billings</city>
+      <zip>59101</zip>
+    </address>
+  </Hotel>
+</Hotels>

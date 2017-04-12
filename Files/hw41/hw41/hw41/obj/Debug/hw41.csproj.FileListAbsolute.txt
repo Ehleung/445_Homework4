@@ -1,0 +1,12 @@
+C:\Fall2014\Fall2014Using\CSE445\homeworks\hw4\hw41\hw41\bin\hw41.dll.config
+C:\Fall2014\Fall2014Using\CSE445\homeworks\hw4\hw41\hw41\bin\hw41.dll
+C:\Fall2014\Fall2014Using\CSE445\homeworks\hw4\hw41\hw41\bin\hw41.pdb
+C:\Fall2014\Fall2014Using\CSE445\homeworks\hw4\hw41\hw41\obj\Debug\hw41.dll
+C:\Fall2014\Fall2014Using\CSE445\homeworks\hw4\hw41\hw41\obj\Debug\hw41.pdb
+C:\Fall2014\Fall2014Using\CSE445\homeworks\hw4\hw41\hw41\obj\Debug\hw41.csprojResolveAssemblyReference.cache
+C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\bin\hw41.dll.config
+C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\bin\hw41.dll
+C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\bin\hw41.pdb
+C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\obj\Debug\hw41.csprojResolveAssemblyReference.cache
+C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\obj\Debug\hw41.dll
+C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\obj\Debug\hw41.pdb
