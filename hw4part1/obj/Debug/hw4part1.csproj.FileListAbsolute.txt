@@ -1,0 +1,6 @@
+D:\Github\445_Homework4\hw4part1\bin\Debug\hw4part1.exe.config
+D:\Github\445_Homework4\hw4part1\bin\Debug\hw4part1.exe
+D:\Github\445_Homework4\hw4part1\bin\Debug\hw4part1.pdb
+D:\Github\445_Homework4\hw4part1\obj\Debug\hw4part1.csprojResolveAssemblyReference.cache
+D:\Github\445_Homework4\hw4part1\obj\Debug\hw4part1.exe
+D:\Github\445_Homework4\hw4part1\obj\Debug\hw4part1.pdb

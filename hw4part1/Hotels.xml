@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
-<!DOCTYPE Hotels SYSTEM "./Hotels.xsd">
 <Hotels>
-  
-  <Hotel>
+
+  <Hotel stars="***">
     <name>Hilton Garden Inn Phoenix Airport</name>
     <contact>
-      <phone>16024700500</phone>
-      <email>none</email>
+      <phone>6024700500</phone>
+      <email>hiltongardenphoenix@hilton.com</email>
     </contact>
     <address>
       <number>3422</number>
@@ -15,13 +13,12 @@
       <city>Phoenix</city>
       <zip>85040</zip>
     </address>
-    <stars>"***"</stars>
   </Hotel>
 
-  <Hotel>
+  <Hotel stars="***">
     <name>Holiday Inn Express and Suites Scottsdale - Old Town</name>
     <contact>
-      <phone>14806757665</phone>
+      <phone>4806757665</phone>
       <email>trisha.ryno@concordhotels.com</email>
     </contact>
     <address>
@@ -30,14 +27,13 @@
       <city>Scottsdale</city>
       <zip>85281</zip>
     </address>
-    <stars>"****"</stars>
   </Hotel>
   
-  <Hotel>
+  <Hotel stars="**">
     <name>Residence Inn Tempe</name>
     <contact>
-      <phone>14807562122</phone>
-      <email></email>
+      <phone>4807562122</phone>
+      <email>residenceinntempe@residence.com</email>
     </contact>
     <address>
       <number>5075</number>
@@ -47,11 +43,11 @@
     </address>
   </Hotel>
 
-  <Hotel>
+  <Hotel stars="****" busLines="10, 14, 38">
     <name>Hampton Inn and Suites Lodi</name>
     <contact>
-      <phone>12093692700</phone>
-      <email></email>
+      <phone>2093692700</phone>
+      <email>hamptonlodi@hamptoninn.com</email>
     </contact>
     <address>
       <number>1337</number>
@@ -61,11 +57,11 @@
     </address>
   </Hotel>
 
-  <Hotel>
+  <Hotel stars="*" busLines="11, 22, 39">
     <name>Best Western Plus Clocktower Inn</name>
     <contact>
       <phone>4062595511</phone>
-      <email></email>
+      <email>clocktower@bestwestern.com</email>
     </contact>
     <address>
       <number>2511</number>
@@ -74,4 +70,5 @@
       <zip>59101</zip>
     </address>
   </Hotel>
+  
 </Hotels>

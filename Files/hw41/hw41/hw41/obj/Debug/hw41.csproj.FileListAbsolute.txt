@@ -10,3 +10,9 @@ C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\bin\hw41.pdb
 C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\obj\Debug\hw41.csprojResolveAssemblyReference.cache
 C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\obj\Debug\hw41.dll
 C:\Spring2016\CSE445\Homeworks\hw41\hw41\hw41\obj\Debug\hw41.pdb
+D:\Github\445_Homework4\Files\hw41\hw41\hw41\bin\hw41.dll.config
+D:\Github\445_Homework4\Files\hw41\hw41\hw41\bin\hw41.dll
+D:\Github\445_Homework4\Files\hw41\hw41\hw41\bin\hw41.pdb
+D:\Github\445_Homework4\Files\hw41\hw41\hw41\obj\Debug\hw41.csprojResolveAssemblyReference.cache
+D:\Github\445_Homework4\Files\hw41\hw41\hw41\obj\Debug\hw41.dll
+D:\Github\445_Homework4\Files\hw41\hw41\hw41\obj\Debug\hw41.pdb
