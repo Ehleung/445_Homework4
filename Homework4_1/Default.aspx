@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Homework 4 Part 1</h1>
+        <h1>Homework 4 Part 1 Question 3</h1>
         <p class="lead">Ellery Leung</p>
     </div>
 
@@ -22,6 +22,8 @@
         <span style="font-weight: normal">
         <br />
         <asp:Label ID="Label1" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="Label2" runat="server"></asp:Label>
         </span>
     </div>
 

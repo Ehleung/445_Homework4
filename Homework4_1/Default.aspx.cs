@@ -16,7 +16,7 @@ namespace Homework4_1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            TextBox1.Text = @"temporary string url";
+            TextBox1.Text = @"http://www.public.asu.edu/~ehleung/Hotels.xml";
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace Homework4_1
             doc.Load(url);
             node = doc.DocumentElement;
             Label1.Text = node.NodeType.ToString();
-            TextBox2.Text = Convert.ToString(node.Name);
+            Label2.Text = Convert.ToString(node.Name);
 
         }
     }
