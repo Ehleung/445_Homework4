@@ -17,18 +17,6 @@
                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
             </p>
         </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         Output:<br />
             <span style="font-weight: normal">
