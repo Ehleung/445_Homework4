@@ -21,46 +21,49 @@ namespace Homework4_1
         {
             XPathDocument doc = new XPathDocument(@TextBox1.Text);
             XPathNavigator nav = doc.CreateNavigator();
-            nav.MoveToFirstChild();
+            XPathNodeIterator iter = nav.Select("/*/*");           // Grab each Hotel node
 
-            XPathNodeIterator iter = nav.Select("*");           // Grab each Hotel node
+            //Label1.Text = "There are " + iter.Count + " main nodes." + Environment.NewLine;      // test code
 
-            Label1.Text = "There are " + iter.Count + " main nodes." + Environment.NewLine;      // test code
-
-            while (iter.MoveNext())     // while there is another node to traverse to
+            while (iter.MoveNext())
             {
-                XPathNodeIterator nodeIter = iter.Current.Select("*");
+                XPathNodeIterator it = iter.Current.Select("*");
+                it.MoveNext();
+                Label dynLabel = new Label();
+                dynLabel.Text = it.Current.Name + ": " + it.Current.Value + "<br/>";
+                div1.Controls.Add(dynLabel);
 
-                while (nodeIter.MoveNext())
+                XPathNodeIterator atrbIt = iter.Current.Select("@*");
+                while (atrbIt.MoveNext())
                 {
-                    if (nodeIter.Current.HasChildren == false)
-                    {
-                        Label dynamicLabel = new Label();
-                        div1.Controls.Add(dynamicLabel);
-                        dynamicLabel.Text = nodeIter.Current.Name + ": " + nodeIter.Current.Value + "<br/>";
-                    }
-                    else
-                    {
-                        XPathNodeIterator elementIter = nodeIter.Current.Select("*");
-                        Label1.Text = elementIter.Count.ToString();
-                        while (elementIter.MoveNext())
-                        {
-                            Label elementLabel = new Label();
-                            div1.Controls.Add(elementLabel);
-                            elementLabel.Text = elementIter.Current.Name + ": " + elementIter.Current.Value + "<br/>";
-                        }
-                    }
+                    Label atrbLabel = new Label();
+                    atrbLabel.Text = atrbIt.Current.Name + ": " + atrbIt.Current.Value + "<br/>";
+                    div1.Controls.Add(atrbLabel);
+                }
+
+                it.MoveNext();
+                XPathNodeIterator conIt = it.Current.Select("*");
+                while (conIt.MoveNext())
+                {
+                    Label conLabel = new Label();
+                    conLabel.Text = conIt.Current.Name + ": " + conIt.Current.Value + "<br/>";
+                    div1.Controls.Add(conLabel);
+                }
+
+                it.MoveNext();
+                XPathNodeIterator adrIt = it.Current.Select("*");
+                while (adrIt.MoveNext())
+                {
+                    Label adrLabel = new Label();
+                    adrLabel.Text = adrIt.Current.Name + ": " + adrIt.Current.Value + "<br/>";
+                    div1.Controls.Add(adrLabel);
                 }
 
                 Label newLine = new Label();
                 newLine.Text = "<br/>";
                 div1.Controls.Add(newLine);
+
             }
-
-            //node = doc.DocumentElement;
-            //Label1.Text = node.NodeType.ToString();
-            //Label2.Text = Convert.ToString(node.Name);
-
         }
     }
 }
