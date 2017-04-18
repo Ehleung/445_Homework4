@@ -24,6 +24,7 @@ namespace hw41
             string file = TextBox3.Text;
             doc.Load(file);
             node = doc.DocumentElement;
+
             TextBox1.Text = node.NodeType.ToString();
             TextBox2.Text = Convert.ToString(node.Name);
 

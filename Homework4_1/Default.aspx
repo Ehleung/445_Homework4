@@ -17,14 +17,27 @@
                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
             </p>
         </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         Output:<br />
-        <span style="font-weight: normal">
-        <br />
-        <asp:Label ID="Label1" runat="server"></asp:Label>
-        <br />
-        <asp:Label ID="Label2" runat="server"></asp:Label>
-        </span>
+            <span style="font-weight: normal">
+            <br />
+            <asp:Label ID="Label1" runat="server"></asp:Label>
+            <br />
+            <asp:Label ID="Label2" runat="server"></asp:Label>
+            </span>
+            <div id="div1" class ="location" runat="server"></div> 
     </div>
 
 </asp:Content>
